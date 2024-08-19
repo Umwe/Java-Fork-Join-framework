@@ -7,6 +7,7 @@ public class FileCounter extends RecursiveTask<Integer> {
     public FileCounter(File directory) {
         this.directory = directory;
     }
+    
 
     @Override
     protected Integer compute() {
